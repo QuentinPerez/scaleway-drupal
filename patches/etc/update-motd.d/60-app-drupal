@@ -1,0 +1,30 @@
+#!/bin/bash
+
+METADATA=$(oc-metadata --cached)
+
+metadata() {
+    key=$1
+    echo "$METADATA" | grep "^$key=" | cut -d= -f2 | sed "s/^['\"]//;s/['\"]$//"
+}
+
+PUBLIC_IP=$(metadata PUBLIC_IP_ADDRESS)
+
+cat <<EOF
+Hi Cloud Rider,
+Welcome to the Drupal image, the following are installed
+and configured:
+- Drupal
+- apache2
+- php 
+- mysql
+The folder /var/www/html contains the Drupal files.
+Useful links:
+- https://github.com/scaleway/image-app-drupal
+- http://${PUBLIC_IP}/
+The MySQL credentials are:
+- login: root 
+- password: {mysql_root_password}
+Your website configuration lies at:
+- /etc/apache2/sites-available/000-default.conf
+Enjoy!
+EOF
