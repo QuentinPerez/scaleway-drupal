@@ -7,8 +7,6 @@ Scripts to build the official Drupal image on Scaleway
 
 This image is built using [Image Tools](https://github.com/scaleway/image-tools) and depends on the official [Ubuntu](https://github.com/scaleway/image-ubuntu) image.
 
-<img src="https://raw.githubusercontent.com/scaleway/image-app-lemp/master/assets/multi-logo-lemp.png" width="400px" />
-
 ---
 
 **This image is meant to be used on a C1 server.**
