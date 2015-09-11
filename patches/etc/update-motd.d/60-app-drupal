@@ -19,7 +19,7 @@ and configured:
 - mysql
 The folder /var/www/html contains the Drupal files.
 Useful links:
-- https://github.com/scaleway/image-app-drupal
+- https://github.com/scaleway-community/scaleway-drupal
 - http://${PUBLIC_IP}/
 The MySQL credentials are:
 - login: root 
