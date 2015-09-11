@@ -1,5 +1,4 @@
-DOCKER_NAMESPACE =	armbuild/
-NAME =			scw-app-drupal
+NAME =			drupal
 VERSION =		latest
 VERSION_ALIASES =	
 TITLE =			Drupal
