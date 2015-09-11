@@ -4,7 +4,7 @@ VERSION =		latest
 VERSION_ALIASES =	
 TITLE =			Drupal
 DESCRIPTION =		Drupal is an open source content management platform
-SOURCE_URL =		https://github.com/scaleway/image-app-drupal
+SOURCE_URL =		https://github.com/scaleway-community/scaleway-drupal
 DOC_URL =		https://scaleway.com/docs/getting-started-with-the-drupal-instant-apps/
 VENDOR_URL =		https://www.drupal.org/
 

@@ -12,7 +12,7 @@ The folder `/var/www/html` contains the Drupal files.
 
 Useful links:
 
-- https://github.com/scaleway/image-app-drupal
+- https://github.com/scaleway-community/scaleway-drupal
 - http://your-ip/
 
 The MySQL credentials are:
