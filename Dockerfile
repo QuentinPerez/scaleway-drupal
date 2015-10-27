@@ -11,7 +11,7 @@ RUN apt-get -q update \
   && apt-get install -y -qq php5 libapache2-mod-php5 php5-mcrypt php5-cli php5-mysql php5-gd php5-curl libssh2-php apache2 \
   && apt-get clean
  
-ENV DRUPAL_VERSION 7.40
+ENV DRUPAL_VERSION 7.41
  
 # Patches
 ADD patches/etc/ /etc/
