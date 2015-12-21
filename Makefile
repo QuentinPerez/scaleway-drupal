@@ -1,15 +1,15 @@
-NAME =			drupal
-VERSION =		latest
-VERSION_ALIASES =	7.40 7
-TITLE =			Drupal 7.40
-DESCRIPTION =		Drupal is an open source content management platform
-SOURCE_URL =		https://github.com/scaleway-community/scaleway-drupal
-DOC_URL =		https://scaleway.com/docs/getting-started-with-the-drupal-instant-apps/
-VENDOR_URL =		https://www.drupal.org/
+NAME =              drupal
+VERSION =           latest
+VERSION_ALIASES =   8.0.1 8.0 8
+TITLE =             Drupal
+DESCRIPTION =       Drupal is an open source content management platform
+SOURCE_URL =        https://github.com/scaleway-community/scaleway-drupal
+DOC_URL =           https://scaleway.com/docs/getting-started-with-the-drupal-instant-apps/
+VENDOR_URL =        https://www.drupal.org/
 
 IMAGE_VOLUME_SIZE =	50G
 IMAGE_BOOTSCRIPT =	stable
-IMAGE_NAME =		Drupal 7.40
+IMAGE_NAME =		Drupal 8.0.1
 
 ## Image tools  (https://github.com/scaleway/image-tools)
 all:	docker-rules.mk
