@@ -9,7 +9,7 @@ VENDOR_URL =		https://www.drupal.org/
 DEFAULT_IMAGE_ARCH =	x86_64
 
 IMAGE_VOLUME_SIZE =	50G
-IMAGE_BOOTSCRIPT =	stable
+IMAGE_BOOTSCRIPT = latest
 IMAGE_NAME =		Drupal 8.0.1
 
 
